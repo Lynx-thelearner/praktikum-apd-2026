@@ -9,12 +9,10 @@ total_bayar = total_berat_akhir * 5 / 100
 # Saya ga paham, yang diminta variabel rata-rata berat bagasi per orang, tapi isi variabelnya pakai total_bayar,
 # Itu bukannya jadi rata_rata total_bayar? Jadi aku buat 2 aja ya disini -Diaz
 #
-rata_rata_total_bayar = total_bayar / len(bagasi)
-rata_rata_berat_bagasi = total_berat_akhir / len(bagasi)
+rata_rata = total_berat_akhir / len(bagasi)
 
 nim = 30
-bolean_bayar = nim < rata_rata_total_bayar
-bolean_berat = nim < rata_rata_berat_bagasi
+bolean_berat = nim < rata_rata
 
 total_berat_akhir_gram = total_berat_akhir * 1000
 
@@ -22,10 +20,8 @@ print("List berat bagasi : ", bagasi,
      "\nSlicing bagasi : ", bagasi[2:5],
      "\ntotal berat akhir : ", total_berat_akhir,
      "\ntotal yang dibayar : ", total_bayar,
-     "\nrata-rata bayar : ", rata_rata_total_bayar,
-     "\nrata-rata berat bagasi : ", rata_rata_berat_bagasi,
+     "\nrata-rata berat bagasi : ", rata_rata,
      "\nnim : ", nim,
-     "\nbolean bayar : ", bolean_bayar,
      "\nbolean berat : ", bolean_berat,
      "\ntotal berat akhir gram : ", total_berat_akhir_gram
 )
