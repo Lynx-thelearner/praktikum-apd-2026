@@ -2,13 +2,6 @@ bagasi: list = [12, 18, 7, 15, 20, 10]
 total_berat_akhir = bagasi[0] + bagasi[1] + bagasi[2] + bagasi[3] + bagasi[4] + bagasi[5]
 total_bayar = total_berat_akhir * 5 / 100
 
-# 3. Hitung rata-rata berat bagasi per orang dengan membuat variabel bernama rata_rata
-#  yang berisi variabel total_bayar dibagi dengan banyak data
-# (diperbolehkan menggunakan fungsi len()). -Soal
-#
-# Saya ga paham, yang diminta variabel rata-rata berat bagasi per orang, tapi isi variabelnya pakai total_bayar,
-# Itu bukannya jadi rata_rata total_bayar? Jadi aku buat 2 aja ya disini -Diaz
-#
 rata_rata = total_berat_akhir / len(bagasi)
 
 nim = 30
