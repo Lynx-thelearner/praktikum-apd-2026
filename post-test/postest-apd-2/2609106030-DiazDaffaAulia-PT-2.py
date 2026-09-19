@@ -18,12 +18,18 @@ bolean = nim < rata_rata
 
 total_berat_akhir_gram = total_berat_akhir * 1000
 
-print("List berat bagasi : ", bagasi,
-     "\nSlicing bagasi : ", bagasi[2:5],
-     "\ntotal berat akhir : ", total_berat_akhir,
-     "\ntotal yang dibayar : ", total_bayar,
-     "\nrata-rata berat bagasi : ", rata_rata,
-     "\nnim : ", nim,
-     "\nbolean berat : ", bolean,
-     "\ntotal berat akhir gram : ", total_berat_akhir_gram
+print("Bagasi 1 : ", bagasi_1,
+    "\nBagasi 2 : ", bagasi_2,
+    "\nBagasi 3 : ", bagasi_3,
+    "\nBagasi 4 : ", bagasi_4,
+    "\nBagasi 5 : ", bagasi_5,
+    "\nBagasi 6 : ", bagasi_6,
+    "\nList berat bagasi : ", bagasi,
+    "\nSlicing bagasi : ", bagasi[2:5],
+    "\nTotal berat akhir : ", total_berat_akhir,
+    "\nTotal yang dibayar : ", total_bayar,
+    "\nRata-rata berat bagasi : ", rata_rata,
+    "\nNIM : ", nim,
+    "\nBolean : ", bolean,
+    "\nTotal berat akhir gram : ", total_berat_akhir_gram
 )
