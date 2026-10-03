@@ -4,11 +4,11 @@ password = "030"
 
 print("======Login Page=====")
 for i in range(3):
-    nickname = input("Masukkan Nama : ").lower()
-    nimi = input("Masukkan Password : ")
+    username = input("Masukkan Nama : ").lower()
+    nimi = input("Masukkan nimi : ")
     
-    if nama == nickname and password == nimi:
-        print("Login Berhasil, met datang kembali ", nickname)
+    if nama == username and password == nimi:
+        print("Login Berhasil, met datang kembali ", username)
         break
     else: 
         if i < 2:
@@ -91,8 +91,10 @@ for kelas in data_kelas:
     print(f"\n=====Kelas {kelas}=====")
     for siswa in data_siswa:
         if siswa[1] == kelas:
-            print("Nama : ", siswa[0],
-                "\nKelas : ", siswa[1],
-                "\nIkut Ujian : ", siswa[2],
-                "\nNilai : ", siswa[3], siswa[4],
-                "\n-------------------")
+            print(f"Nama : {siswa[0]}"
+                  f"\nKelas : {siswa[1]}"
+                  f"\nIkut Ujian : {siswa[2]}"
+                  f"\nNilai : {siswa[3]} ({siswa[4]})"
+                  "\n-------------------")
+
+#Alhamdulillah selesai
