@@ -13,9 +13,11 @@ if not login:
 print(f"\nLogin berhasil \nMet datang kembali {nama}")
 
 print("\n=================PILIH JENIS BBM=======================")
-print("Pertalite 10.000/liter(1)" \
-      "\nPertamax 12.500/liter(2)" \
-      "\nPertamax Turbo 15.000/liter(3)")
+print(
+    "Pertalite 10.000/liter(1)"
+    "\nPertamax 12.500/liter(2)"
+    "\nPertamax Turbo 15.000/liter(3)"
+)
 
 pilihan = input("Masukkan pilihan(1/2/3) : ")
 liter = float(input("Masukkan jumlah liter : "))
@@ -48,7 +50,7 @@ print("\n======STATUS ANGGOTA======")
 
 member = input("Apakah anda member? (y/t) : ").lower()
 
-if member == "y": 
+if member == "y":
     diskon_member = 0.02 * total_harga
     status = "Member"
 elif member == "t":
@@ -65,7 +67,7 @@ print("\n======== HASIL TRANSAKSI ========")
 print(f"{'Nama':<18}: {nama}")
 print(f"{'NIM':<18}: {nimi}")
 print(f"{'Jenis BBM':<18}: {bbm}")
-print(f"{'Liter':<18}: {liter}")    
+print(f"{'Liter':<18}: {liter}")
 print(f"{'Status':<18}: {status}")
 print("---------------------------------")
 print(f"{'Total Harga':<18}: Rp{total_harga:,.0f}")

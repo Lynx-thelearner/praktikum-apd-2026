@@ -10,9 +10,9 @@ hobi = "Ngoding"
 
 print(nama, hobi)
 
-print('''Halo saya Rendy
+print("""Halo saya Rendy
     Saya Suka belajar coding
-    Hari ini saya belajar bahasa pemrograman Python''')
+    Hari ini saya belajar bahasa pemrograman Python""")
 
 teks = "Rahmat Flowchart"
 
