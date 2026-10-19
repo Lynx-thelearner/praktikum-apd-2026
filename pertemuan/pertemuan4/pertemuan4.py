@@ -53,7 +53,7 @@
 
 uang = int(input("Masukkan uang awalmu "))
 
-while (uang >= 0):
+while uang >= 0:
     pengeluaran = int(input("Masukkan pengeluaran "))
     uang = uang - pengeluaran
     print("sisa uang", uang)
