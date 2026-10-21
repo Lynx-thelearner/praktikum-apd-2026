@@ -99,6 +99,7 @@ while True:
 
         elif choice == "3":
             os.system("cls" if os.name == "nt" else "clear")
+            input("System Exit, byeee")
             program = False
             exit()
 
